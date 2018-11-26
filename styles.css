@@ -7,7 +7,8 @@ h1 {
     font-family: 'Fira Sans';
     font-weight: 600;
     font-size: 135%;
-    padding: 10% 8% 1%;
+    line-height: 150%;
+    padding: 9% 8% 1%;
     
 }
 
@@ -21,6 +22,7 @@ p {
     color: #88898B;
     font-weight: 300;
     font-size: 13px;
+    line-height: 150%;
     padding: 0% 8%;
 }
 
@@ -41,13 +43,6 @@ ul {
     align-items: baseline;
   }
 
-.adopt__me {
-    /* width: 100px;  Or whatever */
-    /* height: 100px; Or whatever */
-    /* margin: auto;     */
-    /* font-weight: 600; */
-}
-
 li:hover {
     color: #FF4850;
 }
@@ -59,7 +54,6 @@ button {
     color: white;
     padding: 10px 10px;
     margin: 5px;
-    /* text-align: center; */
     text-decoration: none;
     font-weight: 300;
     border-radius: 4px;
@@ -103,15 +97,6 @@ em {
 
      
 }
-
-/* .leftnav { */
-    /* float: left; */
-    /* display: block; */
-    /* text-align: center; */
-    /* padding: 14px 14px; */
-    /* list-style-type: none; */
-    /* text-decoration: none; */
-/* } */
 
 @media screen and (min-width: 768px) {
     html {
