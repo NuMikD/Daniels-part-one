@@ -1,49 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
 h1 {
     color: black;
     font-family: 'Fira Sans';
     font-weight: 600;
-    font-size: 150%;
-    padding-top: 190px;
-    padding-bottom: 20px;
+    font-size: 135%;
+    padding: 10% 8% 1%;
+    
+}
+
+h2 {
+    font-weight: 600;
+    padding: .5em 0 .5em 0;
 }
 
 p {
     font-family: 'Fira Sans';
     color: #88898B;
     font-weight: 300;
+    font-size: 13px;
+    padding: 0% 8%;
 }
 
 main {
+    text-align: left;
     color: #88898B;
     font-family: 'Fira Sans';
     font-weight: 300;
-    width: 90%   
+    width: 100%   
 }
 ul {
     padding: 0;
     list-style: none;
 }
-
 .adoptme {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-}
+  }
 
 .adopt__me {
-    width: 100px;  /* Or whatever */
-    height: 100px; /* Or whatever */
-    margin: auto;    
-    font-weight: 600;
-}
-
-/* .contact_us { */
-    /* align-items: right; */
-/* } */
-
-.first a {
-    font-weight: 600;
-    padding-left: 0%;
+    /* width: 100px;  Or whatever */
+    /* height: 100px; Or whatever */
+    /* margin: auto;     */
+    /* font-weight: 600; */
 }
 
 li:hover {
@@ -51,16 +53,20 @@ li:hover {
 }
 
 button {
-    /* float: right; */
+    display: flex;
     background-color: #FF4850;
     border: none;
     color: white;
     padding: 10px 10px;
-    text-align: center;
+    margin: 5px;
+    /* text-align: center; */
     text-decoration: none;
-    /* display: flex; */
     font-weight: 300;
     border-radius: 4px;
+}
+
+.find_out_how {
+    padding: 1% 8% 1%;
 }
 
 button:hover {
@@ -72,36 +78,30 @@ em {
     color: #FF4850;
 }
 
-* {
-    box-sizing: border-box;
-}
-
-/* Style the top navigation bar */
-/* .topnav { */
-    /* overflow: hidden; */
-/* } */
-
-/* Style the topnav links */
-/* .topnav a { */
-    /* float: right; */
-    /* display: block; */
-    /* text-align: center; */
-    /* padding: 14px 14px; */
-    /* text-decoration: none; */
-/* } */
-
-/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .adoptme {
-    float: none;
-    width: 100%;
-  }
-}
 
 @media screen and (max-width: 768px) {
     .adoptme {   
         flex-direction: column;
     }
+    li {
+        padding: .25em 0 .25em .5em;
+        list-style: none;
+    }
+
+    h1 {
+        padding: 1em .25em .75em .25em;
+    }
+
+    p {
+        padding: .25em .25em .25em .25em;
+    }
+
+    .contact_us, .find_out_how {
+        flex: auto;
+        padding: .5em 0 .5em 0;
+    }
+
+     
 }
 
 /* .leftnav { */
@@ -121,6 +121,6 @@ em {
         background-attachment: fixed;
         background-position: center;
         width: 100%;
-        height: auto;
+        height: 100%;
     }
 }
